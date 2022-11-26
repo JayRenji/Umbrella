@@ -102,7 +102,7 @@ section-container{
 .button:hover {
     background-color: white;
     color: #3a82f6;
-  }
+}
 
 .hall{
     
@@ -273,8 +273,6 @@ h4{
         width: 40%;
     }
 }
-
-
 
 .end{
     background-color: #1f2937;

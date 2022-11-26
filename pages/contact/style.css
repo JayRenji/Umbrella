@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    background-color: #1f2937;
+    height: 3.125rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: .1875rem;
+    padding-bottom: 3.25rem;
+    padding-right: 3.125rem;
+    padding-left: 3.125rem;
+}
+nav a {
+    text-decoration: none;
+    color: #E5E7EB;
+    margin-right: .625rem;
+    text-transform: uppercase;
+    padding: .625rem;
+    border-radius: .625rem;
+    
+}
+nav a:hover {
+    background-color:#2a3d59;
+}
+
+.nav-logo {
+    padding-top: 3.125rem;
+    width: 117px;
+    height:auto;
+
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu-icon {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .menu-icon {
+        display: inline-block;
+        width: 1.25rem;
+    }
+    nav ul {
+        display: none;
+    }
+}
+
+body{
+    background:#3882f6;
+    margin:0
+}
+section-container{
+    max-width: 100vw;
+    min-height: 100vh;
+
+}
+
+.section1{
+    background-image:url(/images/woman.jpg);
+    height: 18.75rem;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.banner-text{
+    font-size: 48px;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+body{
+    background:#59ABE3;margin:0
+}
+input:focus{
+    border-bottom:2px solid white;
+}
+p:before{
+    content:attr(type);
+    display:block;
+    margin:28px 0 0;
+    font-size:14px;
+    color:#5a5a5a
+}
+button{
+    float:left;
+    padding:8px 12px;
+    margin:8px 0 0;
+    border:2px solid white;
+    background:0;
+    color:white;
+    cursor:pointer;transition:all .3s
+}
+button:hover{
+    background:#3882f6;
+    color:#fff
+}
+div{
+    
+    position:absolute;
+    bottom:10px;
+    right:10px;
+    background:#3882f6;
+    color:#fff;
+    width:320px;
+    padding:16px 4px 16px 0;
+    border-radius:6px;
+    font-size:13px;
+    box-shadow:10px 10px 40px -14px 
+}
+
+
+.end{
+    background-color: #1f2937;
+    height: 30px;     
+    text-align: center;
+    font-size: 12px;
+    color: #f9faf8;
+    
+}
