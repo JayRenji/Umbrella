@@ -142,7 +142,7 @@ section-container{
 
 }
 
-div.item{
+figure.item{
     vertical-align: top;
     display: inline-block;
     justify-content: space-around;
@@ -188,13 +188,10 @@ img{
         flex-grow: 4;
         justify-content:center;
         align-items: center;
-        padding: 50px;
-        
-    
-
+        padding: 50px;         
 }
 
-p{
+blockquote{
     text-align: center;
     font-size: 36px;
     font-weight:300;
